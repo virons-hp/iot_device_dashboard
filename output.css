@@ -1,0 +1,139 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.videoBgContainer {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  -webkit-backdrop-filter: opacity(95px);
+          backdrop-filter: opacity(95px);
+}
+
+#myVideo {
+  background-color: #00e6e2;
+  width: 100%;
+  z-index: -1;
+}
+
+.videoBgContainerHeading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  z-index: 1;
+  position: absolute;
+  top: 5%;
+}
+
+.videoBgContainerHeadingText h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  text-shadow: 3px 3px 20px rgba(15, 220, 239, 0.712);
+}
+
+.videoBgContainerHeadingText p {
+  font-size: 1.2rem;
+  text-align: center;
+  text-shadow: 4px 4px 25px rgba(15, 220, 239, 0.712);
+}
+
+.iotProductSection {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  justify-items: center;
+  align-items: center;
+}
+
+.iotProductSectionInner {
+ 
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.iotProductImage {
+  /* margin-right: 2%; */
+  padding: 1rem;
+  width: 40%;
+  height: 40vh;
+  background-image: url(./resources/iotImg1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgba(30, 29, 29, 0.281);
+
+  /* box-shadow: 2px 2px 2px #00e6e2; */
+}
+
+.iotProductImage:hover{
+  transition: 300ms ease-in-out 0s ;
+  transition-duration: 500ms ease-out;
+  transform: scale(105%);
+  transform: rotateX('360');
+  /* zoom: 140%; */
+}
+
+.iotProductDescription{
+  /* padding-right: 2%; */
+  width: 60%;
+}
+
+.iotProductDescription h2{
+  text-decoration: underline solid orangered;
+}
+
+.iotProductDescriptionInner {
+  height: 40vh;
+  margin-left: 2%;
+  padding: 1rem;
+  color: white;
+  background-color: rgba(30, 29, 29, 0.281);
+}
+
+
+.descSpan{
+  font-weight:bold;
+  
+}
+
+.videoBgContainerButton {
+  display: flex;
+  width: 100%;
+  align-items:center;
+  justify-content: center;
+}
+
+.videoBgContainerButton button{
+  font-size: 1rem;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 50%;
+  box-shadow: none;
+  border: none;
+  text-shadow: 1px 1px 1px black;
+}
+
+.learnMoreButton{
+  background-color: green;
+}
+
+.learnMoreButton:hover{
+  background-color: rgb(0, 90, 0);
+}
+
+.loginButton{
+  background-color: orangered;
+}
+
+.loginButton:hover{
+  background-color: rgb(146, 39, 0);
+}

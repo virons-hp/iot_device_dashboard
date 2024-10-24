@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.videoBgContainer {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    -webkit-backdrop-filter: opacity(95px);
+            backdrop-filter: opacity(95px);
+  }
+  
+  #myVideo {
+    background-color: #00e6e2;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .videoBgContainerHeading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    top: 5%;
+  }
+  
+  .videoBgContainerHeadingText h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 3px 3px 20px rgba(15, 220, 239, 0.712);
+  }
+  
+  .videoBgContainerHeadingText p {
+    font-size: 1.2rem;
+    text-align: center;
+    text-shadow: 4px 4px 25px rgba(15, 220, 239, 0.712);
+  }
+  
+  .iotProductSection {
+    width: 100%;
+    /* justify-items: center; */
+    align-items: center;
+  }
+  
+  .iotProductSectionInner {
+    position: absolute;
+    top: 35%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  
+  .iotProductImage {
+    padding: 1rem;
+    width: 50%;
+    height: 40vh;
+    background-image: url(./resources/iot\ device.webp);
+  }
+  
+  .iotProductDescription {
+    padding: 1rem;
+    color: whitesmoke;
+    width: 50%;
+    height: 40vh;
+    background-color: crimson;
+  }
+  
+  .videoBgContainerButton {
+    display: flex;
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+  }
+  
+  .videoBgContainerButton button{
+    width: 50%;
+  }
+  
+  .videoBgContainerButton:first-child{
+    background-color: aqua;
+  }
