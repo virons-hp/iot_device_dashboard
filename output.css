@@ -1,5 +1,7 @@
 
-
+body{
+  background-color: black;
+}
 .videoBgContainer {
   position: absolute;
   z-index: -1;

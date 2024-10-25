@@ -81,7 +81,7 @@
 }
 
 .iotProductDescription h2 {
-  text-decoration: underline solid rgb(53, 224, 237);
+  /* text-decoration: underline solid rgb(53, 224, 237); */
 }
 
 .iotProductDescriptionInner {
@@ -142,7 +142,7 @@
   font-size: 2.5rem;
   text-align: center;
   text-shadow: 3px 3px 20px rgba(15, 220, 239, 0.712);
-  text-decoration: underline solid rgb(53, 224, 237);
+  /* text-decoration: underline solid rgb(53, 224, 237); */
 }
 .iotFeatureSectionInner {
   width: 80%;
@@ -251,6 +251,7 @@ input[type="password"] {
   text-align: center;
   font-family: Arial, sans-serif;
   color: #0d0d0d;
+  margin-bottom: 5%;
 }
 
 /* Testimonial Card Styling */
@@ -293,5 +294,5 @@ input[type="password"] {
   font-size: 2.5rem;
   text-align: center;
   text-shadow: 3px 3px 20px rgba(15, 220, 239, 0.712);
-  text-decoration: underline solid rgb(53, 224, 237);
+  /* text-decoration: underline solid rgb(53, 224, 237); */
 }
