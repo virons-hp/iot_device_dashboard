@@ -1,0 +1,279 @@
+.videoBgContainer {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+#myVideo {
+  width: 100%;
+  z-index: -1;
+}
+
+.videoBgContainerHeading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  /* color: white; */
+  z-index: 1;
+  position: absolute;
+  top: 5%;
+}
+
+.videoBgContainerHeadingText h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  text-shadow: 3px 3px 20px rgba(15, 220, 239, 0.712);
+}
+
+.videoBgContainerHeadingText p {
+  font-size: 1.2rem;
+  text-align: center;
+  text-shadow: 4px 4px 25px rgba(15, 220, 239, 0.712);
+}
+
+.iotProductSection {
+  width: 100%;
+  position: absolute;
+  top: 38%;
+  justify-items: center;
+  align-items: center;
+}
+
+.iotProductSectionInner {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.iotProductImage {
+  /* margin-right: 2%; */
+  padding: 1rem;
+  width: 40%;
+  height: 40vh;
+  background-image: url(./resources/iotImg1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  animation: bounce 2s infinite;
+  /* box-shadow: 2px 2px 2px #00e6e2; */
+}
+
+@keyframes bounce {
+  0% {
+    /* transform: rotateY(10deg); */
+  }
+
+  50% {
+    /* transform:  rotateY(30deg) ; */
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.iotProductDescription {
+  width: 60%;
+}
+
+.iotProductDescription h2 {
+  text-decoration: underline solid rgb(53, 224, 237);
+}
+
+.iotProductDescriptionInner {
+  height: 40vh;
+  margin-left: 2%;
+  padding: 1rem;
+  /* color: white; */
+  /* background-color: rgba(30, 29, 29, 0.281); */
+}
+
+.descSpan {
+  font-weight: bold;
+}
+
+.videoBgContainerButton {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.videoBgContainerButton button {
+  font-size: 1rem;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+  box-shadow: none;
+  border: none;
+  text-shadow: 1px 1px 1px black;
+}
+
+.learnMoreButton {
+  background-color: green;
+}
+
+.learnMoreButton:hover {
+  background-color: rgb(0, 90, 0);
+}
+
+.loginButton {
+  background-color: orangered;
+}
+
+.loginButton:hover {
+  background-color: rgb(146, 39, 0);
+}
+
+.iotFeatureSection {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+ 
+}
+
+.iotFeatureSection h1{
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 3px 3px 20px rgba(15, 220, 239, 0.712);
+    text-decoration: underline solid rgb(53, 224, 237);
+}
+.iotFeatureSectionInner {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.iotFeatureDescription{
+    width: 50%;
+    padding-right: 1.1rem;
+}
+
+.iotFeatureSectionImage {
+    padding-left: 1.1rem;
+    width: 50%;
+    height: 40vh;
+    background-image: url(./resources/iot\ device.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 8px solid rgba(0, 0, 0, 0);
+    /* border-radius: 50%px; */
+}
+
+.iotFeatureSectionButton{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.iotFeatureSectionButton button{
+    font-size: 1rem;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+    /* Modal background styling */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    }
+    /* Modal content box styling */
+    .modal-content {
+      background-color: white;
+      margin: 15% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 400px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    /* Close button styling */
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    /* Form input styling */
+    input[type="text"], input[type="password"] {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    /* Submit button styling */
+    .submit-btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+
+    .testimonial-container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+
+    /* Testimonial Card Styling */
+    .testimonial-card {
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* User Image Styling */
+    .testimonial-card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+
+    /* User Name and Testimonial Text */
+    .user-name {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin: 0.5rem 0;
+      color: #555;
+    }
+
+    .user-quote {
+      font-style: italic;
+      color: #777;
+    }

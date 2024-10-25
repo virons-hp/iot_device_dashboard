@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 .videoBgContainer {
   position: absolute;
@@ -62,7 +60,6 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  /* background-color: rgba(30, 29, 29, 0.281); */
   animation: bounce 2s infinite;
   /* box-shadow: 2px 2px 2px #00e6e2; */
 }
@@ -78,13 +75,10 @@
   }
   100% {
     transform: translateY(0);
-    /* transform:  rotateY(180deg) ; */
-    /* transform:  rotateY(-30deg) ; */
   }
 }
 
 .iotProductDescription {
-  /* padding-right: 2%; */
   width: 60%;
 }
 
@@ -137,3 +131,5 @@
 .loginButton:hover {
   background-color: rgb(146, 39, 0);
 }
+
+
